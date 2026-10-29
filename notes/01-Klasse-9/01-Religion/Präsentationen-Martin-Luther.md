@@ -16,28 +16,28 @@ Klasse: 9 | Umfang: ... Minuten | Abschluss: Schülerpräsentationen in Zweiergr
 Hier eine Auswahl von 6 möglichen Themen.
 
 ### Thema 1 - Martin Luther: Leben und Entwicklung
-  Leitfrage: Wie wurde aus dem Mönch Martin Luther ein Reformator?
-  Voraussetzung: Sitzung 2; geeignet für einen biografischen Einstieg.
+> Leitfrage: Wie wurde aus dem Mönch Martin Luther ein Reformator?
+> Voraussetzung: Sitzung 2; geeignet für einen biografischen Einstieg.
 
 ### Thema 2 - Ablasshandel und die 95 Thesen
-  Leitfrage: Was kritisierte Luther und warum war das so umstritten?
-  Voraussetzung: Grundbegriffe zu Sünde, Vergebung und Kirche.
+> Leitfrage: Was kritisierte Luther und warum war das so umstritten?
+> Voraussetzung: Grundbegriffe zu Sünde, Vergebung und Kirche.
 
 ### Thema 3 - Die Bibelübersetzung
-  Leitfrage: Warum war es wichtig, die Bibel in deutscher Sprache zugänglich zu machen?
-  Voraussetzung: Die Bedeutung der Bibel im Christentum.
+> Leitfrage: Warum war es wichtig, die Bibel in deutscher Sprache zugänglich zu machen?
+> Voraussetzung: Die Bedeutung der Bibel im Christentum.
 
 ### Thema 4 - Der Reichstag zu Worms
-  Leitfrage: Warum musste Luther seine Lehren vor Kaiser und Reich verteidigen?
-  Voraussetzung: Luthers Kritik und die Autorität von Kirche und Kaiser.
+> Leitfrage: Warum musste Luther seine Lehren vor Kaiser und Reich verteidigen?
+> Voraussetzung: Luthers Kritik und die Autorität von Kirche und Kaiser.
 
 ### Thema 5 - Buchdruck und Verbreitung der Reformation  
-  Leitfrage: Wie konnten sich Luthers Ideen so schnell verbreiten?
-  Voraussetzung: Grundkenntnisse über Luthers Kritik; gut für den Zusammenhang von Medien und Geschichte.
+> Leitfrage: Wie konnten sich Luthers Ideen so schnell verbreiten?
+> Voraussetzung: Grundkenntnisse über Luthers Kritik; gut für den Zusammenhang von Medien und Geschichte.
 
 ### Thema 6 - Die Entstehung der evangelischen Kirche
-  Leitfrage: Wie entwickelte sich aus der Reformation eine neue kirchliche Tradition?
-  Voraussetzung: Grundverständnis der Konflikte und Veränderungen.
+> Leitfrage: Wie entwickelte sich aus der Reformation eine neue kirchliche Tradition?
+> Voraussetzung: Grundverständnis der Konflikte und Veränderungen.
 
 
 ## Weitere wichtige Grundbegriffe
