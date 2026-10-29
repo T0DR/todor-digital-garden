@@ -2,7 +2,7 @@
   'use strict';
 
   const NOTES_DIR = 'notes/';
-  const SITE = 'Digital Garden';
+  const SITE = '🪴 Digital Garden';
   const $ = (s, r = document) => r.querySelector(s);
   const collator = new Intl.Collator('de', { numeric: true, sensitivity: 'base' });
   const mobile = window.matchMedia('(max-width: 900px)');
