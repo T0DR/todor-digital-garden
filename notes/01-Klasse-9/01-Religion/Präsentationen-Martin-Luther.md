@@ -5,9 +5,10 @@ tags: [Religion]
 downloads:
   - 
 ---
+
 # Präsentationen - Martin Luther und die Reformation
----
-Klasse: 9 | Umfang: ... 90 Minuten | Abschluss: Schülerpräsentationen in Zweiergruppen
+
+Klasse: 9 | Umfang: ... Minuten | Abschluss: Schülerpräsentationen in Zweiergruppen
 
 
 ## Welche Themen eignen sich für die Zweiergruppen?
@@ -15,7 +16,7 @@ Klasse: 9 | Umfang: ... 90 Minuten | Abschluss: Schülerpräsentationen in Zweie
 Hier eine Auswahl von 6 möglichen Themen.
 
 ### Thema 1 -> Martin Luther: Leben und Entwicklung
-*Leitfrage:* Wie wurde aus dem Mönch Martin Luther ein Reformator?
+--> *Leitfrage:* Wie wurde aus dem Mönch Martin Luther ein Reformator?
 *Voraussetzung:* Sitzung 2; geeignet für einen biografischen Einstieg.
 
 ### Thema 2 -> Ablasshandel und die 95 Thesen
