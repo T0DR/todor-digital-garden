@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Digital Garden</title>
+    <meta name="description" content="Digital Garden von Todor: Notizen und Materialien." />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%230071e3'/%3E%3Cpath d='M20 22h24M32 22v24' stroke='white' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/marked.umd.js" defer></script>
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" id="sidebar" aria-label="Navigation">
+        <div class="sidebar-head">
+          <a class="brand" href="#/"><strong>Todor</strong><span>Digital Garden</span></a>
+          <div class="search">
+            <span class="search-icon" data-icon="search"></span>
+            <input
+              id="search"
+              type="search"
+              placeholder="Suchen"
+              aria-label="Einträge durchsuchen"
+              autocomplete="off"
+              autocapitalize="off"
+              spellcheck="false"
+              enterkeyhint="search"
+            />
+            <button class="search-clear" id="search-clear" type="button" aria-label="Suche löschen" hidden data-icon="clear"></button>
+          </div>
+        </div>
+        <div class="sidebar-scroll">
+          <ul class="tree" id="tree"></ul>
+          <div class="results" id="results" hidden></div>
+        </div>
+      </aside>
+      <button class="scrim" id="scrim" type="button" tabindex="-1" aria-label="Navigation schließen"></button>
+
+      <div class="main">
+        <header class="topbar">
+          <button class="icon-btn" id="menu-btn" type="button" aria-label="Navigation öffnen" aria-expanded="false" aria-controls="sidebar" data-icon="menu"></button>
+          <span class="bar-title" id="bar-title">Digital Garden</span>
+          <button class="icon-btn" id="search-btn" type="button" aria-label="Suchen" data-icon="search"></button>
+        </header>
+        <main id="main" aria-live="polite"><div class="page"><p class="muted">Lädt …</p></div></main>
+      </div>
+    </div>
+    <noscript><p style="padding:2rem">Diese Seite benötigt JavaScript.</p></noscript>
+  </body>
+</html>
