@@ -1,4 +1,4 @@
-# Digital Garden
+# 🪴 Digital Garden
 
 Statische Website für GitHub Pages. Einträge sind Markdown-Dateien in `notes/`.
 
