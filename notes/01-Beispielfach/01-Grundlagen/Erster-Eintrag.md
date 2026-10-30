@@ -8,7 +8,7 @@ downloads:
 
 # Erster Eintrag mit Download
 
-Oben stehen die Materialien zum Herunterladen. Im Text kannst du außerdem normal auf Dateien im selben Ordner verlinken: [Arbeitsblatt öffnen](arbeitsblatt-beispiel.txt).
+Oben stehen die Materialien zum Herunterladen. Im Text kannst du außerdem normal auf Dateien im selben Ordner verlinken: [Arbeitsblatt öffnen](arbeitsblatt-beispiel.txt). Wow wie cool
 
 ## Formatierung
 
