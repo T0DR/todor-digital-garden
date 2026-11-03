@@ -2,8 +2,6 @@
 title: Präsentationen - Martin Luther und die Reformation
 date: 2026-10-29
 tags: [Religion]
-downloads:
-  - 
 ---
 
 # Präsentationen - Martin Luther und die Reformation
