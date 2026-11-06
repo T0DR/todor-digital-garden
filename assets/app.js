@@ -332,7 +332,7 @@
     setTitle('');
     const root = state.root;
     const recent = [...state.notes].sort((a, b) => b.date.localeCompare(a.date) || collator.compare(a.title, b.title)).slice(0, 6);
-    let h = `<div class="page"><h1>${SITE}</h1><p class="lead">${plural(state.notes.length)}</p>`;
+    let h = `<div class="page"><header class="hero"><p class="eyebrow">Todor · Notizen &amp; Materialien</p><h1>Digital <em>Garden.</em></h1><p class="lead">${plural(state.notes.length)}</p></header>`;
     if (root.folders.size) h += `<h2 class="section-title">Ordner</h2><ul class="group">${sortedFolders(root).map(folderItem).join('')}</ul>`;
     if (root.notes.length) h += `<h2 class="section-title">Einträge</h2><ul class="group">${sortedNotes(root).map((n) => noteItem(n)).join('')}</ul>`;
     if (recent.length) h += `<h2 class="section-title">Zuletzt aktualisiert</h2><ul class="group">${recent.map((n) => noteItem(n, true)).join('')}</ul>`;
