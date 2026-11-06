@@ -10,7 +10,6 @@ Klasse: 9 | Umfang: ... Minuten | Abschluss: Schülerpräsentationen in Zweiergr
 
 
 ## Welche Themen eignen sich für die Zweiergruppen?
----
 Hier eine Auswahl von 6 möglichen Themen.
 
 ### Thema 1 - Martin Luther: Leben und Entwicklung
@@ -39,7 +38,6 @@ Hier eine Auswahl von 6 möglichen Themen.
 
 
 ## Weitere wichtige Grundbegriffe
----
 Diese werden in allen Themen, manche mehr und manche weniger, aufzufinden sein. Recherchiert diese gerne nochmal zusätzlich bzw. baut diese in euren Prösentationen mit ein.
 
 |Grundbegriff|Historischer Bezug|
@@ -52,6 +50,5 @@ Diese werden in allen Themen, manche mehr und manche weniger, aufzufinden sein. 
 
 
 ## Während des Vortrags
----
 Anbei findet ihr einmal den Präsentations- und den Zuhörbogen. Dieser gibt euch die Kriterien für den Vortrag und den Arbeitsauftrag für die Zuhörenden. Damit wisst ihr wie ihr benotet werdet und worauf geachtet wird.
 
