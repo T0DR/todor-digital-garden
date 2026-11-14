@@ -1,6 +1,7 @@
 ---
-title: Neuer Eintrag
+title: Adonia Nachtreffen Workshop 2026
 date: 2026-11-14
+tags: [Adonia]
 ---
 
 # Adonia Nachtreffen Workshop 2026
