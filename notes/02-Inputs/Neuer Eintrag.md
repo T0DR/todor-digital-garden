@@ -53,10 +53,10 @@ Worship – Worth-ship: Gott ist aller Ehre würdig
 
 Offenbarung 5,11-12 verbindet die Anbetungswürdigkeit Gottes mit dem Erlösungswerk des Lammes.
 
-'''
-11 Und ich sah: Und ich hörte eine Stimme vieler Engel rings um den Thron her und um die lebendigen Wesen und um die Ältesten; und ihre Zahl war Zehntausende mal Zehntausende und Tausende mal Tausende, 12 die mit lauter Stimme sprachen: Würdig ist das Lamm, das geschlachtet worden ist, zu nehmen die Macht und Reichtum und Weisheit und Stärke und Ehre und Herrlichkeit und Lobpreis.
-~Offenbarung 5,11-12 ELB 2006
-'''
+*11 Und ich sah: Und ich hörte eine Stimme vieler Engel rings um den Thron her und um die lebendigen Wesen und um die Ältesten; und ihre Zahl war Zehntausende mal Zehntausende und Tausende mal Tausende, 12 die mit lauter Stimme sprachen: Würdig ist das Lamm, das geschlachtet worden ist, zu nehmen die Macht und Reichtum und Weisheit und Stärke und Ehre und Herrlichkeit und Lobpreis.
+
+~Offenbarung 5,11-12 ELB 2006*
+
 
 Zwei wesentliche Dinge:
 - Gott ist würdig aufgrund dessen, wer er ist.
@@ -125,10 +125,9 @@ Psalm 145 beschreibt Gottes Größe, Güte, Treue und Barmherzigkeit.
 ---
 ### 6. Anbetung ist mehr als Musik: Unser ganzes Leben
 
-'''
-1 Ich ermahne euch nun, Brüder, durch die Erbarmungen Gottes, eure Leiber darzustellen als ein lebendiges, heiliges, Gott wohlgefälliges Opfer, was euer vernünftiger Gottesdienst ist. 2 Und seid nicht gleichförmig dieser Welt, sondern werdet verwandelt durch die Erneuerung des Sinnes*, dass ihr prüft, was der Wille Gottes ist: das Gute und Wohlgefällige und Vollkommene.
-~Römer 12,1–2 ELB 2006
-'''
+*1 Ich ermahne euch nun, Brüder, durch die Erbarmungen Gottes, eure Leiber darzustellen als ein lebendiges, heiliges, Gott wohlgefälliges Opfer, was euer vernünftiger Gottesdienst ist. 2 Und seid nicht gleichförmig dieser Welt, sondern werdet verwandelt durch die Erneuerung des Sinnes*, dass ihr prüft, was der Wille Gottes ist: das Gute und Wohlgefällige und Vollkommene.
+
+~Römer 12,1–2 ELB 2006*
 
 Musik kann Ausdruck unserer Anbetung sein. Unser Leben soll ebenfalls Ausdruck unserer Anbetung werden.
 
