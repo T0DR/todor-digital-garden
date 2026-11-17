@@ -61,7 +61,7 @@ Nicht aus Musik oder Emotionen. Wir beten Gott nicht nur an, weil er uns etwas g
 
 Worship – Worth-ship: Gott ist aller Ehre würdig
 
-***--> Was macht Gott würdig?***
+***&rarr; Was macht Gott würdig?***
 
 Offenbarung 5,11-12 verbindet die Anbetungswürdigkeit Gottes mit dem Erlösungswerk des Lammes.
 
@@ -84,7 +84,7 @@ Zwei wesentliche Dinge:
 2. Anbetung bedeutet Vertrauen (Gott könne auch seinen Sohn von den Toten erwecken)
 3. Anbetung hat mit Hingabe zu tun
 
-***--> Weitere Beispiele für Anbetung in der Bibel?***
+***&rarr; Weitere Beispiele für Anbetung in der Bibel?***
 
 Verschiedene Ausdrucksformen: Ehrfurcht, Vertrauen, Hingabe, Freude, Ausdauer und Anerkennung der Herrschaft Gottes.
 
@@ -110,7 +110,7 @@ Es setzt sich zusammen aus:
 - Halelu: Preist!
 - Jah: Kurzform des Gottesnamens Jahwe.
 
-***--> Preist Jahwe!***
+***&rarr; Preist Jahwe!***
 
 Psalm 150: 
 eindrückliches Beispiel. Dort werden verschiedene Instrumente genannt, denn mit allem soll Gott gelobt werden.
