@@ -4,8 +4,20 @@ date: 2026-11-14
 tags: [Adonia]
 ---
 
+
+
 # Adonia Nachtreffen Workshop 2026
 ## Anbetung und Lobpreis – Gott erkennen, ehren und lieben
+
+---
+### Inhaltsverzeichnis
+- [1. Was bedeutet Anbetung?](#1-was-bedeutet-anbetung)
+- [2. Anbetung beginnt mit der Erkenntnis, wer Gott ist](#2-anbetung-beginnt-mit-der-erkenntnis-wer-gott-ist)
+- [3. Anbetung konkret: Abraham und Isaak](#3-anbetung-konkret-abraham-und-isaak)
+- [4. Was bedeutet Lobpreis?](#4-was-bedeutet-lobpreis)
+- [5. Lobpreis verändert unseren Blick](#5-lobpreis-ver-ndert-unseren-blick)
+- [6. Anbetung ist mehr als Musik: Unser ganzes Leben](#6-anbetung-ist-mehr-als-musik-unser-ganzes-leben)
+- [7. Wie leben wir Anbetung im Alltag?](#7-wie-leben-wir-anbetung-im-alltag)
 
 Schlüsseltexte: 1.Mose 22,1–14; Psalm 103; Psalm 145; Psalm 150; Römer 12,1–2; Johannes 4,23–24
 
