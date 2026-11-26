@@ -332,7 +332,7 @@
     setTitle('');
     const root = state.root;
     const recent = [...state.notes].sort((a, b) => b.date.localeCompare(a.date) || collator.compare(a.title, b.title)).slice(0, 6);
-    let h = `<div class="page"><header class="hero"><p class="eyebrow">Todor · Notizen &amp; Materialien</p><h1>Digital <em>Garden.</em></h1><p class="lead">${plural(state.notes.length)}</p></header>`;
+    let h = `<div class="page"><h1>${SITE}</h1><p class="lead">${plural(state.notes.length)}</p>`;
     if (root.folders.size) h += `<h2 class="section-title">Ordner</h2><ul class="group">${sortedFolders(root).map(folderItem).join('')}</ul>`;
     if (root.notes.length) h += `<h2 class="section-title">Einträge</h2><ul class="group">${sortedNotes(root).map((n) => noteItem(n)).join('')}</ul>`;
     if (recent.length) h += `<h2 class="section-title">Zuletzt aktualisiert</h2><ul class="group">${recent.map((n) => noteItem(n, true)).join('')}</ul>`;
@@ -420,6 +420,36 @@
     });
   }
 
+  // Überschriften bekommen IDs, damit Inhaltsverzeichnisse mit [Text](#anker) funktionieren.
+  // Der Vergleich ignoriert Umlaute und Sonderzeichen, auch Anker wie "#5-lobpreis-ver-ndert" treffen.
+  const anchorKey = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const anchorKeyAscii = (s) => anchorKey(s.normalize('NFD').replace(/\p{M}/gu, ''));
+  const githubSlug = (s) => s.trim().toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').replace(/\s/g, '-');
+
+  function addHeadingIds(root) {
+    const used = new Set();
+    root.querySelectorAll('h1,h2,h3,h4,h5,h6').forEach((h) => {
+      const text = h.textContent;
+      let id = githubSlug(text) || 'abschnitt';
+      for (let n = 1; used.has(id); n++) id = `${githubSlug(text)}-${n}`;
+      used.add(id);
+      h.id = id;
+      h.dataset.k1 = anchorKey(text);
+      h.dataset.k2 = anchorKeyAscii(text);
+    });
+  }
+
+  function jumpTo(root, anchor) {
+    let a = anchor;
+    try { a = decodeURIComponent(anchor); } catch {}
+    const el =
+      root.querySelector(`[id="${CSS.escape(a)}"]`) ||
+      [...root.querySelectorAll('[data-k1]')].find((h) => h.dataset.k1 === anchorKey(a) || h.dataset.k2 === anchorKeyAscii(a));
+    if (!el) return false;
+    el.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+    return true;
+  }
+
   async function showNote(note, token) {
     setTitle(note.title);
     const tags = note.tags.length
@@ -432,6 +462,7 @@
       if (token !== navToken) return;
       body.innerHTML = marked.parse(prepare(md, note), { gfm: true, breaks: true });
       fixLinks(body, note);
+      addHeadingIds(body);
     } catch {
       if (token !== navToken) return;
       body.innerHTML = '<p class="muted">Der Eintrag konnte nicht geladen werden.</p>';
@@ -440,6 +471,12 @@
   }
 
   mainEl.addEventListener('click', (e) => {
+    const link = e.target.closest('.body a[href^="#"]');
+    if (link && !link.getAttribute('href').startsWith('#/')) {
+      e.preventDefault();
+      jumpTo($('.body', mainEl), link.getAttribute('href').slice(1));
+      return;
+    }
     const tag = e.target.closest('[data-tag]');
     if (tag) focusSearch(tag.dataset.tag);
   });
