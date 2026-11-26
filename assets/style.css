@@ -55,7 +55,23 @@ body {
 }
 
 button, input { font: inherit; color: inherit; }
-button { cursor: pointer; }
+button { cursor: pointer; -webkit-appearance: none; appearance: none; background: none; border: 0; padding: 0; margin: 0; }
+
+/* Safari blendet in Eingabefeldern AutoFill-Knöpfe (Passwörter, Kontakte) als graue Box ein */
+input::-webkit-contacts-auto-fill-button,
+input::-webkit-credentials-auto-fill-button,
+input::-webkit-caps-lock-indicator,
+input::-webkit-search-decoration,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+  visibility: hidden !important;
+  display: none !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+}
 a { color: var(--link); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .muted { color: var(--text-2); }
